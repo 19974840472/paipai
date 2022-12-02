@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "发布闲置",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u--textarea": "../../uni_modules/uview-ui/components/u--textarea/u--textarea",
+    "tui-upload": "../../node-modules/thorui-uni/lib/thorui/tui-upload/tui-upload",
+    "u-picker": "../../uni_modules/uview-ui/components/u-picker/u-picker",
+    "tui-list-cell": "../../node-modules/thorui-uni/lib/thorui/tui-list-cell/tui-list-cell",
+    "tui-list-view": "../../node-modules/thorui-uni/lib/thorui/tui-list-view/tui-list-view",
+    "u--input": "../../uni_modules/uview-ui/components/u--input/u--input",
+    "u-form-item": "../../uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "u--form": "../../uni_modules/uview-ui/components/u--form/u--form",
+    "u-button": "../../uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__940F89A",
+  "name": "paipai",
+  "version": {
+    "name": "1.0.0",
+    "code": "100"
+  },
+  "description": "",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "light",
+      "background": "#F8F8F8"
+    },
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "distribute": {
+      "google": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ]
+      },
+      "apple": {},
+      "plugins": {
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "uniStatistics": {
+      "enable": false
+    },
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#FFFFFF",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "control": "uni-v3",
+      "vueVersion": "3",
+      "compilerVersion": "3.4.18",
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      },
+      "nvueLaunchMode": "normal"
+    },
+    "tabBar": {
+      "position": "bottom",
+      "color": "#ccc",
+      "selectedColor": "#01c30b",
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "blurEffect": "none",
+      "fontSize": "10px",
+      "iconWidth": "24px",
+      "spacing": "3px",
+      "height": "50px",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "/./static/icon/index1.png",
+          "selectedIconPath": "/./static/icon/index2.png"
+        },
+        {
+          "pagePath": "pages/classification/classification",
+          "text": "分类",
+          "iconPath": "/./static/icon/classification2.png",
+          "selectedIconPath": "/./static/icon/classification.png"
+        },
+        {
+          "pagePath": "pages/release/release",
+          "text": "卖闲置",
+          "iconPath": "/./static/icon/release2.png",
+          "selectedIconPath": "/./static/icon/release2.png"
+        },
+        {
+          "pagePath": "pages/information/information",
+          "text": "消息",
+          "iconPath": "/./static/icon/information1.png",
+          "selectedIconPath": "/./static/icon/information2.png"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "iconPath": "/./static/icon/my1.png",
+          "selectedIconPath": "/./static/icon/my2.png"
+        }
+      ],
+      "selectedIndex": 0,
+      "shown": true,
+      "child": [
+        "lauchwebview"
+      ],
+      "selected": 0
+    }
+  },
+  "launch_path": "__uniappview.html"
+}

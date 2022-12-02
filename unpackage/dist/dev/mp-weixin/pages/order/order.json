@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tui-tabs": "../../node-modules/thorui-uni/lib/thorui/tui-tabs/tui-tabs",
+    "u-icon": "../../uni_modules/uview-ui/components/u-icon/u-icon"
+  }
+}

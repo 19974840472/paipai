@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "消息",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-notice-bar": "../../uni_modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "tui-list-cell": "../../node-modules/thorui-uni/lib/thorui/tui-list-cell/tui-list-cell",
+    "tui-list-view": "../../node-modules/thorui-uni/lib/thorui/tui-list-view/tui-list-view",
+    "uni-swipe-action-item": "../../node-modules/@dcloudio/uni-ui/lib/uni-swipe-action-item/uni-swipe-action-item",
+    "uni-swipe-action": "../../node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action"
+  }
+}

@@ -1,0 +1,1 @@
+<uv-input wx:if="{{i}}" u-s="{{['d']}}" bindfocus="{{a}}" bindblur="{{b}}" bindkeyboardheightchange="{{c}}" bindchange="{{d}}" bindinput="{{e}}" bindconfirm="{{f}}" bindclear="{{g}}" bindclick="{{h}}" u-i="f1be17c2-0" bind:__l="__l" u-p="{{i}}"><slot name="prefix"></slot><slot name="suffix"></slot></uv-input>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "卖闲置",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

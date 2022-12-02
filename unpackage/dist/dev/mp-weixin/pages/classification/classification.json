@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "拍拍",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "../../uni_modules/uview-ui/components/u-search/u-search"
+  }
+}

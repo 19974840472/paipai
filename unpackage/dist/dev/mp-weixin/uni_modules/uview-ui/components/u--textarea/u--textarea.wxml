@@ -1,0 +1,1 @@
+<uv-textarea wx:if="{{g}}" bindfocus="{{a}}" bindblur="{{b}}" bindlinechange="{{c}}" bindconfirm="{{d}}" bindinput="{{e}}" bindkeyboardheightchange="{{f}}" u-i="62b30542-0" bind:__l="__l" u-p="{{g}}"></uv-textarea>

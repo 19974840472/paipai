@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classification/classification",
+    "pages/my/my",
+    "pages/information/information",
+    "pages/release/release",
+    "pages/commodity/commodity",
+    "pages/search/search",
+    "pages/upload/upload",
+    "pages/list/list",
+    "pages/order/order",
+    "pages/idle/idle"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#01c30b",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/icon/index1.png",
+        "selectedIconPath": "./static/icon/index2.png"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "text": "分类",
+        "iconPath": "./static/icon/classification2.png",
+        "selectedIconPath": "./static/icon/classification.png"
+      },
+      {
+        "pagePath": "pages/release/release",
+        "text": "卖闲置",
+        "iconPath": "./static/icon/release2.png",
+        "selectedIconPath": "./static/icon/release2.png"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "text": "消息",
+        "iconPath": "./static/icon/information1.png",
+        "selectedIconPath": "./static/icon/information2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./static/icon/my1.png",
+        "selectedIconPath": "./static/icon/my2.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

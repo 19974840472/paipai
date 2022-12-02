@@ -1,0 +1,1 @@
+<view class="{{['tui-list-class', 'tui-list-cell', 'data-v-45c8ea59', a, b, c, d, e, f, g]}}" hover-class="{{h}}" style="{{'background-color:' + i + ';' + ('font-size:' + j) + ';' + ('color:' + k) + ';' + ('padding:' + l)}}" hover-stay-time="{{150}}" bindtap="{{m}}"><slot></slot></view>

@@ -1,0 +1,155 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"autoscan": true,
+		"custom": {
+			"tui-(.*)": "thorui-uni/lib/thorui/tui-$1/tui-$1.vue",
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "拍拍",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#01c30b",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/classification/classification",
+			"style": {
+				"navigationBarTitleText": "拍拍",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#65be46",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/release/release",
+			"style": {
+				"navigationBarTitleText": "卖闲置",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/commodity/commodity",
+			"style": {
+				"navigationBarTitleText": "拍拍",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "拍拍",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/upload/upload",
+			"style": {
+				"navigationBarTitleText": "发布闲置",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "拍拍",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/idle/idle",
+			"style": {
+				"navigationBarTitleText": "我的闲置",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#ccc",
+		"selectedColor": "#01c30b",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/icon/index1.png",
+				"selectedIconPath": "./static/icon/index2.png"
+			},
+			{
+				"pagePath": "pages/classification/classification",
+				"text": "分类",
+				"iconPath": "./static/icon/classification2.png",
+				"selectedIconPath": "./static/icon/classification.png"
+			},
+			{
+				"pagePath": "pages/release/release",
+				"text": "卖闲置",
+				"iconPath": "./static/icon/release2.png",
+				"selectedIconPath": "./static/icon/release2.png"
+			},
+			{
+				"pagePath": "pages/information/information",
+				"text": "消息",
+				"iconPath": "./static/icon/information1.png",
+				"selectedIconPath": "./static/icon/information2.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "./static/icon/my1.png",
+				"selectedIconPath": "./static/icon/my2.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+
+}

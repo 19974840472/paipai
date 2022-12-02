@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "拍拍",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-goods-nav": "../../node-modules/@dcloudio/uni-ui/lib/uni-goods-nav/uni-goods-nav"
+  }
+}

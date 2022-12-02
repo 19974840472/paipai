@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#65be46",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tui-list-cell": "../../node-modules/thorui-uni/lib/thorui/tui-list-cell/tui-list-cell",
+    "tui-list-view": "../../node-modules/thorui-uni/lib/thorui/tui-list-view/tui-list-view"
+  }
+}
